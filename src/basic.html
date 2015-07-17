@@ -25,19 +25,18 @@
             .enter()
             .append('rect')
             .style('fill', function (data) {
-                return 'rgb(' + (data * 10) + ',0,0)'
+                return 'rgb(' + Math.round(100+(data * 1.4)) + ',0,0)'
             })
             .attr('x', function (data, index) {
-                return index * ( w / dataset.length);
+                return padding + index * ( w / dataset.length);
             })
             .attr('y', function (data) {
-                console.log('relative', h / maxElement);
-                return h - ( h / (maxElement + lineHeight)) * data; // coordinates system is upside down.
+                return h - ( h / (maxElement + lineHeight + padding)) * data; // coordinates system is upside down.
 
             })
             .attr('width', w / dataset.length - padding)
             .attr('height', function () {
-                return ( h / (maxElement + lineHeight) ) * h;
+                return ( h / (maxElement + lineHeight + padding) ) * h;
             });
 
     svg.selectAll('text')
