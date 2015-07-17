@@ -1,0 +1,4065 @@
+{
+  "name": "Workbench",
+  "children": [
+    {
+      "name": "lib",
+      "children": [
+        {
+          "name": "components",
+          "children": [
+            {
+              "name": "jquery-mousewheel",
+              "children": [
+                {
+                  "name": "jquery.mousewheel.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "jquery-whenall",
+              "children": [
+                {
+                  "name": "jquery-whenall.js",
+                  "children": [],
+                  "isFile": 14
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "underscore",
+              "children": [
+                {
+                  "name": "underscore.js",
+                  "children": [],
+                  "isFile": 10
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone",
+              "children": [
+                {
+                  "name": "backbone.js",
+                  "children": [],
+                  "isFile": 8
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone.marionette",
+              "children": [
+                {
+                  "name": "backbone.marionette.js",
+                  "children": [],
+                  "isFile": 19
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "underscore.string",
+              "children": [
+                {
+                  "name": "underscore.string.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "jquery.easing",
+              "children": [
+                {
+                  "name": "jquery.easing.js",
+                  "children": [],
+                  "isFile": 13
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "jquery-outside-events",
+              "children": [
+                {
+                  "name": "jquery.ba-outside-events.js",
+                  "children": [],
+                  "isFile": 24
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "bootstrap",
+              "children": [
+                {
+                  "name": "bootstrap-button.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "bootstrap-dropdown.js",
+                  "children": [],
+                  "isFile": 18
+                },
+                {
+                  "name": "bootstrap-tooltip.js",
+                  "children": [],
+                  "isFile": 17
+                },
+                {
+                  "name": "bootstrap-popover.js",
+                  "children": [],
+                  "isFile": 17
+                },
+                {
+                  "name": "bootstrap-modal.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "bootstrap-tab.js",
+                  "children": [],
+                  "isFile": 13
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "bootstrap-application-wizard",
+              "children": [
+                {
+                  "name": "bootstrap-wizard.js",
+                  "children": [],
+                  "isFile": 16
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "jquery.scrollTo",
+              "children": [
+                {
+                  "name": "jquery.scrollTo.js",
+                  "children": [],
+                  "isFile": 15
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone-forms",
+              "children": [
+                {
+                  "name": "backbone-forms.js",
+                  "children": [],
+                  "isFile": 14
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone-pageable",
+              "children": [
+                {
+                  "name": "backbone-pageable.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "select2",
+              "children": [
+                {
+                  "name": "select2.js",
+                  "children": [],
+                  "isFile": 7
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "moment",
+              "children": [
+                {
+                  "name": "moment.js",
+                  "children": [],
+                  "isFile": 6
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backgrid",
+              "children": [
+                {
+                  "name": "backgrid.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "extensions",
+                  "children": [
+                    {
+                      "name": "paginator",
+                      "children": [
+                        {
+                          "name": "backgrid-paginator.js",
+                          "children": [],
+                          "isFile": 18
+                        }
+                      ],
+                      "isFile": -1
+                    },
+                    {
+                      "name": "select2-cell",
+                      "children": [
+                        {
+                          "name": "backgrid-select2-cell.js",
+                          "children": [],
+                          "isFile": 21
+                        }
+                      ],
+                      "isFile": -1
+                    },
+                    {
+                      "name": "select-all",
+                      "children": [
+                        {
+                          "name": "backgrid-select-all.js",
+                          "children": [],
+                          "isFile": 19
+                        }
+                      ],
+                      "isFile": -1
+                    },
+                    {
+                      "name": "moment-cell",
+                      "children": [
+                        {
+                          "name": "backgrid-moment-cell.js",
+                          "children": [],
+                          "isFile": 20
+                        }
+                      ],
+                      "isFile": -1
+                    }
+                  ],
+                  "isFile": -1
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone-validation",
+              "children": [
+                {
+                  "name": "backbone-validation.js",
+                  "children": [],
+                  "isFile": 19
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "nouislider",
+              "children": [
+                {
+                  "name": "jquery.nouislider.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "bootstrap-datepicker",
+              "children": [
+                {
+                  "name": "bootstrap-datepicker.js",
+                  "children": [],
+                  "isFile": 20
+                },
+                {
+                  "name": "locales",
+                  "children": [
+                    {
+                      "name": "bootstrap-datepicker.fr.js",
+                      "children": [],
+                      "isFile": 23
+                    }
+                  ],
+                  "isFile": -1
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "jquery.floatThead",
+              "children": [
+                {
+                  "name": "jquery.floatThead.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "tourist",
+              "children": [
+                {
+                  "name": "tourist.js",
+                  "children": [],
+                  "isFile": 7
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "bootstrap-switch",
+              "children": [
+                {
+                  "name": "bootstrapSwitch.js",
+                  "children": [],
+                  "isFile": 15
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "twitter-bootstrap-wizard",
+              "children": [
+                {
+                  "name": "jquery.bootstrap.wizard.js",
+                  "children": [],
+                  "isFile": 23
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "hammerjs",
+              "children": [
+                {
+                  "name": "hammer.js",
+                  "children": [],
+                  "isFile": 6
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "bootstrap-dropdown-checkbox",
+              "children": [
+                {
+                  "name": "bootstrap-dropdown-checkbox.js",
+                  "children": [],
+                  "isFile": 27
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone.virtualcollection",
+              "children": [
+                {
+                  "name": "backbone.virtual-collection.js",
+                  "children": [],
+                  "isFile": 27
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "zeroclipboard",
+              "children": [
+                {
+                  "name": "ZeroClipboard.js",
+                  "children": [],
+                  "isFile": 13
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "jquery-minicolors",
+              "children": [
+                {
+                  "name": "jquery.minicolors.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "fuse",
+              "children": [
+                {
+                  "name": "fuse.js",
+                  "children": [],
+                  "isFile": 4
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "jquery-ui",
+              "children": [
+                {
+                  "name": "jquery.ui.core.js",
+                  "children": [],
+                  "isFile": 14
+                },
+                {
+                  "name": "jquery.ui.widget.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "jquery.ui.mouse.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "jquery.ui.sortable.js",
+                  "children": [],
+                  "isFile": 18
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "angular",
+              "children": [
+                {
+                  "name": "angular.js",
+                  "children": [],
+                  "isFile": 7
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "angular-translate",
+              "children": [
+                {
+                  "name": "angular-translate.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "angular-animate",
+              "children": [
+                {
+                  "name": "angular-animate.js",
+                  "children": [],
+                  "isFile": 15
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "angular-loader",
+              "children": [
+                {
+                  "name": "angular-loader.js",
+                  "children": [],
+                  "isFile": 14
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "angular-ui-sortable",
+              "children": [
+                {
+                  "name": "sortable.js",
+                  "children": [],
+                  "isFile": 8
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "angular-ui-utils",
+              "children": [
+                {
+                  "name": "ui-utils.js",
+                  "children": [],
+                  "isFile": 8
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "angular-ui-select",
+              "children": [
+                {
+                  "name": "select.js",
+                  "children": [],
+                  "isFile": 6
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "angular-strap",
+              "children": [
+                {
+                  "name": "angular-strap.min.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "checklist-model",
+              "children": [
+                {
+                  "name": "checklist-model.js",
+                  "children": [],
+                  "isFile": 15
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "angular-check-all",
+              "children": [
+                {
+                  "name": "angular-check-all.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone-ng-view",
+              "children": [
+                {
+                  "name": "backbone-ng-view.js",
+                  "children": [],
+                  "isFile": 16
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "localforage",
+              "children": [
+                {
+                  "name": "localforage.js",
+                  "children": [],
+                  "isFile": 11
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "ace-builds",
+              "children": [
+                {
+                  "name": "ace.js",
+                  "children": [],
+                  "isFile": 3
+                }
+              ],
+              "isFile": -1
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "static",
+          "children": [
+            {
+              "name": "jquery.nicescroll.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "jquery.dragsort-0.5.1.js",
+              "children": [],
+              "isFile": 21
+            },
+            {
+              "name": "jquery.shiftclick.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "jquery.tsv-0.96.js",
+              "children": [],
+              "isFile": 15
+            },
+            {
+              "name": "backbone-marionette-treeview.js",
+              "children": [],
+              "isFile": 28
+            },
+            {
+              "name": "detectFlashVersion.js",
+              "children": [],
+              "isFile": 18
+            },
+            {
+              "name": "download-file.js",
+              "children": [],
+              "isFile": 13
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "extensions",
+          "children": [
+            {
+              "name": "backbone.marionette",
+              "children": [
+                {
+                  "name": "backbone.marionette.fast-collection-view.js",
+                  "children": [],
+                  "isFile": 40
+                },
+                {
+                  "name": "backbone.marionette.bubble-event.js",
+                  "children": [],
+                  "isFile": 32
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone-forms",
+              "children": [
+                {
+                  "name": "duck-punches.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "templates",
+                  "children": [
+                    {
+                      "name": "bootstrap.js",
+                      "children": [],
+                      "isFile": 9
+                    }
+                  ],
+                  "isFile": -1
+                },
+                {
+                  "name": "acquisio-config.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "marionette-form.js",
+                  "children": [],
+                  "isFile": 15
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone",
+              "children": [
+                {
+                  "name": "backbone.advanced-get-set.js",
+                  "children": [],
+                  "isFile": 25
+                },
+                {
+                  "name": "backbone-select2.js",
+                  "children": [],
+                  "isFile": 16
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backgrid",
+              "children": [
+                {
+                  "name": "index-cell",
+                  "children": [
+                    {
+                      "name": "backgrid-index-cell.js",
+                      "children": [],
+                      "isFile": 19
+                    }
+                  ],
+                  "isFile": -1
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone.virtualcollection",
+              "children": [
+                {
+                  "name": "backbone.virtual-collection-sortable.js",
+                  "children": [],
+                  "isFile": 36
+                },
+                {
+                  "name": "backbone.virtual-collection-toJSON.js",
+                  "children": [],
+                  "isFile": 34
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "ace-builds",
+              "children": [
+                {
+                  "name": "ace-mode-raw.js",
+                  "children": [],
+                  "isFile": 12
+                }
+              ],
+              "isFile": -1
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "main.js",
+          "children": [],
+          "isFile": 4
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "common",
+      "children": [
+        {
+          "name": "natives.js",
+          "children": [],
+          "isFile": 7
+        },
+        {
+          "name": "Dictionary.js",
+          "children": [],
+          "isFile": 10
+        },
+        {
+          "name": "constants.js",
+          "children": [],
+          "isFile": 9
+        },
+        {
+          "name": "carriers.js",
+          "children": [],
+          "isFile": 8
+        },
+        {
+          "name": "kpi-constants.js",
+          "children": [],
+          "isFile": 13
+        },
+        {
+          "name": "bulk-constants.js",
+          "children": [],
+          "isFile": 14
+        },
+        {
+          "name": "templates.js",
+          "children": [],
+          "isFile": 9
+        },
+        {
+          "name": "effects.js",
+          "children": [],
+          "isFile": 7
+        },
+        {
+          "name": "utils.js",
+          "children": [],
+          "isFile": 5
+        },
+        {
+          "name": "cookies.js",
+          "children": [],
+          "isFile": 7
+        },
+        {
+          "name": "api.js",
+          "children": [],
+          "isFile": 3
+        },
+        {
+          "name": "modal.js",
+          "children": [],
+          "isFile": 5
+        },
+        {
+          "name": "help-popover.js",
+          "children": [],
+          "isFile": 12
+        },
+        {
+          "name": "form-char-limit.js",
+          "children": [],
+          "isFile": 15
+        },
+        {
+          "name": "acquisio-searchfield.js",
+          "children": [],
+          "isFile": 20
+        },
+        {
+          "name": "notifications.js",
+          "children": [],
+          "isFile": 13
+        },
+        {
+          "name": "serialize.js",
+          "children": [],
+          "isFile": 9
+        },
+        {
+          "name": "marionette-transition-region.js",
+          "children": [],
+          "isFile": 28
+        },
+        {
+          "name": "marionette-sortable.js",
+          "children": [],
+          "isFile": 19
+        },
+        {
+          "name": "i18n.js",
+          "children": [],
+          "isFile": 4
+        },
+        {
+          "name": "fuzzycollection.js",
+          "children": [],
+          "isFile": 15
+        },
+        {
+          "name": "formatter",
+          "children": [
+            {
+              "name": "segment.js",
+              "children": [],
+              "isFile": 7
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "main.js",
+          "children": [],
+          "isFile": 4
+        },
+        {
+          "name": "acquisio-treeview.js",
+          "children": [],
+          "isFile": 17
+        },
+        {
+          "name": "localstore",
+          "children": [
+            {
+              "name": "acq-local-store-adapter.js",
+              "children": [],
+              "isFile": 23
+            },
+            {
+              "name": "local-store-facade.js",
+              "children": [],
+              "isFile": 18
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "tooltip-popover.js",
+          "children": [],
+          "isFile": 15
+        },
+        {
+          "name": "acquisio-dataviz-chart.js",
+          "children": [],
+          "isFile": 22
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "ng",
+      "children": [
+        {
+          "name": "core",
+          "children": [
+            {
+              "name": "core.js",
+              "children": [],
+              "isFile": 4
+            },
+            {
+              "name": "animations",
+              "children": [
+                {
+                  "name": "slide.js",
+                  "children": [],
+                  "isFile": 5
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "api",
+              "children": [
+                {
+                  "name": "account-service.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "agency-service.js",
+                  "children": [],
+                  "isFile": 14
+                },
+                {
+                  "name": "api.js",
+                  "children": [],
+                  "isFile": 3
+                },
+                {
+                  "name": "bulk-service.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "currency-service.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "date-service.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "publisher-account-service.js",
+                  "children": [],
+                  "isFile": 25
+                },
+                {
+                  "name": "publisher-service.js",
+                  "children": [],
+                  "isFile": 17
+                },
+                {
+                  "name": "stats-service.js",
+                  "children": [],
+                  "isFile": 13
+                },
+                {
+                  "name": "user-service.js",
+                  "children": [],
+                  "isFile": 12
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "constants.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "dictionary",
+              "children": [
+                {
+                  "name": "dictionary-interpolation.js",
+                  "children": [],
+                  "isFile": 24
+                },
+                {
+                  "name": "dictionary-loader.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "filters",
+              "children": [
+                {
+                  "name": "is-array.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "titleize.js",
+                  "children": [],
+                  "isFile": 8
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "stores",
+              "children": [
+                {
+                  "name": "account-store.js",
+                  "children": [],
+                  "isFile": 13
+                },
+                {
+                  "name": "agency-store.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "user-store.js",
+                  "children": [],
+                  "isFile": 10
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "utils",
+              "children": [
+                {
+                  "name": "dialog.js",
+                  "children": [],
+                  "isFile": 6
+                },
+                {
+                  "name": "jquery.js",
+                  "children": [],
+                  "isFile": 6
+                },
+                {
+                  "name": "moment.js",
+                  "children": [],
+                  "isFile": 6
+                },
+                {
+                  "name": "notify.js",
+                  "children": [],
+                  "isFile": 6
+                },
+                {
+                  "name": "underscore.js",
+                  "children": [],
+                  "isFile": 10
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "validators",
+              "children": [
+                {
+                  "name": "email-validator.js",
+                  "children": [],
+                  "isFile": 15
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "main.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "components",
+          "children": [
+            {
+              "name": "components.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "accordion",
+              "children": [
+                {
+                  "name": "accordion-body.js",
+                  "children": [],
+                  "isFile": 14
+                },
+                {
+                  "name": "accordion-group.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "accordion-header.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "accordion.js",
+                  "children": [],
+                  "isFile": 9
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "backbone-view",
+              "children": [
+                {
+                  "name": "backbone-view.js",
+                  "children": [],
+                  "isFile": 13
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "column-picker",
+              "children": [
+                {
+                  "name": "column-picker.js",
+                  "children": [],
+                  "isFile": 13
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "scroll-to",
+              "children": [
+                {
+                  "name": "scroll-to.js",
+                  "children": [],
+                  "isFile": 9
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "search-input",
+              "children": [
+                {
+                  "name": "search-input.js",
+                  "children": [],
+                  "isFile": 12
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "select2",
+              "children": [
+                {
+                  "name": "select2.js",
+                  "children": [],
+                  "isFile": 7
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "main.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "bulksheet",
+          "children": [
+            {
+              "name": "bulksheet.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "export",
+              "children": [
+                {
+                  "name": "export-controller.js",
+                  "children": [],
+                  "isFile": 17
+                },
+                {
+                  "name": "metrics-modal-controller.js",
+                  "children": [],
+                  "isFile": 24
+                },
+                {
+                  "name": "metrics-selector.js",
+                  "children": [],
+                  "isFile": 16
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "main.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "workbench",
+          "children": [
+            {
+              "name": "workbench.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "export",
+              "children": [
+                {
+                  "name": "publisher-account-selection",
+                  "children": [
+                    {
+                      "name": "publisher-account-action.js",
+                      "children": [],
+                      "isFile": 24
+                    },
+                    {
+                      "name": "publisher-account-selection.js",
+                      "children": [],
+                      "isFile": 27
+                    },
+                    {
+                      "name": "reports.js",
+                      "children": [],
+                      "isFile": 7
+                    }
+                  ],
+                  "isFile": -1
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "main.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "proteus.js",
+          "children": [],
+          "isFile": 7
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "proteus",
+      "children": [
+        {
+          "name": "extensions",
+          "children": [
+            {
+              "name": "backbone-forms",
+              "children": [
+                {
+                  "name": "editors",
+                  "children": [
+                    {
+                      "name": "counted-text.js",
+                      "children": [],
+                      "isFile": 12
+                    }
+                  ],
+                  "isFile": -1
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "kendo.js",
+              "children": [],
+              "isFile": 5
+            },
+            {
+              "name": "marionette.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "state-cell.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "state-header-cell.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "validation.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "zero-clipboard.js",
+              "children": [],
+              "isFile": 14
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "app.js",
+          "children": [],
+          "isFile": 3
+        },
+        {
+          "name": "benchmark.js",
+          "children": [],
+          "isFile": 9
+        },
+        {
+          "name": "access-modules.js",
+          "children": [],
+          "isFile": 14
+        },
+        {
+          "name": "data-sources.js",
+          "children": [],
+          "isFile": 12
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "marionette-searchfield.js",
+              "children": [],
+              "isFile": 22
+            },
+            {
+              "name": "loading-mixin.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "clickable-list.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "accordion-list.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "agency-terms.js",
+              "children": [],
+              "isFile": 12
+            },
+            {
+              "name": "batch-collection-view.js",
+              "children": [],
+              "isFile": 21
+            },
+            {
+              "name": "clickable-table.js",
+              "children": [],
+              "isFile": 15
+            },
+            {
+              "name": "collapser.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "dialog.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "draggable-list.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "entity-tree.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "jobs-panel.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "main-navigation.js",
+              "children": [],
+              "isFile": 15
+            },
+            {
+              "name": "marionette.zero-clipboard.js",
+              "children": [],
+              "isFile": 25
+            },
+            {
+              "name": "option.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "progress-bar.js",
+              "children": [],
+              "isFile": 12
+            },
+            {
+              "name": "read-only-text-area.js",
+              "children": [],
+              "isFile": 19
+            },
+            {
+              "name": "select.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "sorted-collection-view-mixin.js",
+              "children": [],
+              "isFile": 28
+            },
+            {
+              "name": "structure-list.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "tool-drawer.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "upgraded-url-dialog.js",
+              "children": [],
+              "isFile": 19
+            },
+            {
+              "name": "validation-mixin.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "wizard.js",
+              "children": [],
+              "isFile": 6
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "structure.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "logged-user.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "preferences.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "agency.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "account.js",
+              "children": [],
+              "isFile": 7
+            },
+            {
+              "name": "statistics.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "ad-group.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "campaign-group.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "campaign.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "publisher.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "checkbox-listitem.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "syncing-mixin.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "accordion.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "validation",
+              "children": [
+                {
+                  "name": "format.js",
+                  "children": [],
+                  "isFile": 6
+                },
+                {
+                  "name": "messages.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "validators.js",
+                  "children": [],
+                  "isFile": 10
+                },
+                {
+                  "name": "main.js",
+                  "children": [],
+                  "isFile": 4
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "agency-terms.js",
+              "children": [],
+              "isFile": 12
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "listeners.js",
+          "children": [],
+          "isFile": 9
+        },
+        {
+          "name": "acqGATracker.js",
+          "children": [],
+          "isFile": 12
+        },
+        {
+          "name": "listeners-ga.js",
+          "children": [],
+          "isFile": 12
+        },
+        {
+          "name": "main.js",
+          "children": [],
+          "isFile": 4
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "notifications",
+      "children": [
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "notifications.js",
+              "children": [],
+              "isFile": 13
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "detailviews",
+              "children": [
+                {
+                  "name": "data-report.js",
+                  "children": [],
+                  "isFile": 11
+                },
+                {
+                  "name": "url-encoding.js",
+                  "children": [],
+                  "isFile": 12
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "itemviews",
+              "children": [
+                {
+                  "name": "base.js",
+                  "children": [],
+                  "isFile": 4
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "layout.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "list.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "controller.js",
+          "children": [],
+          "isFile": 10
+        },
+        {
+          "name": "main.js",
+          "children": [],
+          "isFile": 4
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "date-range-picker",
+      "children": [
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "date-range.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "date-range-picker-settings.js",
+              "children": [],
+              "isFile": 26
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "date-range-layout.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "config-layout.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "calendar-range.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "range-compare-view.js",
+              "children": [],
+              "isFile": 18
+            },
+            {
+              "name": "range-preset-view.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "button-date-range-view.js",
+              "children": [],
+              "isFile": 22
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "controllers",
+          "children": [
+            {
+              "name": "date-range-picker-controller.js",
+              "children": [],
+              "isFile": 28
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "main.js",
+          "children": [],
+          "isFile": 4
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "workbench",
+      "children": [
+        {
+          "name": "Router.js",
+          "children": [],
+          "isFile": 6
+        },
+        {
+          "name": "Controller.js",
+          "children": [],
+          "isFile": 10
+        },
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "ExponentialBackoff.js",
+              "children": [],
+              "isFile": 18
+            },
+            {
+              "name": "Navigation.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "Workbench.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "errors.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "entity-sync.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "entity.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "entity-collection-sync.js",
+              "children": [],
+              "isFile": 22
+            },
+            {
+              "name": "entity-columns.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "paging.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "entity-collection.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "account.js",
+              "children": [],
+              "isFile": 7
+            },
+            {
+              "name": "ad-group.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "ad.js",
+              "children": [],
+              "isFile": 2
+            },
+            {
+              "name": "adextension-call.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "adextension-location.js",
+              "children": [],
+              "isFile": 20
+            },
+            {
+              "name": "adextension-sitelink.js",
+              "children": [],
+              "isFile": 20
+            },
+            {
+              "name": "autotarget.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "campaign-group.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "campaign.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "column.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "entity-selection.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "exported-file-list.js",
+              "children": [],
+              "isFile": 18
+            },
+            {
+              "name": "graph.js",
+              "children": [],
+              "isFile": 5
+            },
+            {
+              "name": "keyword-tools.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "keyword.js",
+              "children": [],
+              "isFile": 7
+            },
+            {
+              "name": "navigation-data.js",
+              "children": [],
+              "isFile": 15
+            },
+            {
+              "name": "pastille.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "product-group.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "publisher.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "search-query.js",
+              "children": [],
+              "isFile": 12
+            },
+            {
+              "name": "sort.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "editors",
+              "children": [
+                {
+                  "name": "ad-base.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "adcenter-text.js",
+                  "children": [],
+                  "isFile": 13
+                },
+                {
+                  "name": "adcenter-wap-text.js",
+                  "children": [],
+                  "isFile": 17
+                },
+                {
+                  "name": "adwords-dynamic.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "adwords-image.js",
+                  "children": [],
+                  "isFile": 13
+                },
+                {
+                  "name": "adwords-product-ad.js",
+                  "children": [],
+                  "isFile": 18
+                },
+                {
+                  "name": "adwords-text.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "adwords-wap-text.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "yahoo-text.js",
+                  "children": [],
+                  "isFile": 10
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "disableable.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "add-entities-button.js",
+              "children": [],
+              "isFile": 19
+            },
+            {
+              "name": "ActionBarView.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "BackGridView.js",
+              "children": [],
+              "isFile": 12
+            },
+            {
+              "name": "BreadCrumbsView.js",
+              "children": [],
+              "isFile": 15
+            },
+            {
+              "name": "CampaignCloningAccountSelectionView.js",
+              "children": [],
+              "isFile": 35
+            },
+            {
+              "name": "CampaignCloningView.js",
+              "children": [],
+              "isFile": 19
+            },
+            {
+              "name": "ChangeStatusView.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "EntityBar.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "NavView.js",
+              "children": [],
+              "isFile": 7
+            },
+            {
+              "name": "RevertSelectedChangesView.js",
+              "children": [],
+              "isFile": 25
+            },
+            {
+              "name": "SidePanelView.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "WorkbenchView.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "ad-extensions",
+              "children": [
+                {
+                  "name": "adextension-mgmt-columns.js",
+                  "children": [],
+                  "isFile": 24
+                },
+                {
+                  "name": "adextension-grid.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "adextension-tabs.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "sitelinks.js",
+                  "children": [],
+                  "isFile": 9
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "add-ads-button.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "ads-tab.js",
+              "children": [],
+              "isFile": 7
+            },
+            {
+              "name": "autotarget-grid.js",
+              "children": [],
+              "isFile": 15
+            },
+            {
+              "name": "budget-path-button.js",
+              "children": [],
+              "isFile": 18
+            },
+            {
+              "name": "conversion-path-button.js",
+              "children": [],
+              "isFile": 22
+            },
+            {
+              "name": "duplicate-button.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "expansion-tools",
+              "children": [
+                {
+                  "name": "add-keywords.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "ads-tool.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "collapser-content.js",
+                  "children": [],
+                  "isFile": 17
+                },
+                {
+                  "name": "search-location.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "search-location-list.js",
+                  "children": [],
+                  "isFile": 20
+                },
+                {
+                  "name": "selected-language.js",
+                  "children": [],
+                  "isFile": 17
+                },
+                {
+                  "name": "selected-language-list.js",
+                  "children": [],
+                  "isFile": 22
+                },
+                {
+                  "name": "selected-location.js",
+                  "children": [],
+                  "isFile": 17
+                },
+                {
+                  "name": "selected-location-list.js",
+                  "children": [],
+                  "isFile": 22
+                },
+                {
+                  "name": "expansion-tools-targeting.js",
+                  "children": [],
+                  "isFile": 25
+                },
+                {
+                  "name": "expansion-tools.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "keyword-results.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "seed-item.js",
+                  "children": [],
+                  "isFile": 9
+                },
+                {
+                  "name": "keywords-tool.js",
+                  "children": [],
+                  "isFile": 13
+                },
+                {
+                  "name": "tool-drawer-buttons.js",
+                  "children": [],
+                  "isFile": 19
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "grid-error.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "manage-negatives-button.js",
+              "children": [],
+              "isFile": 23
+            },
+            {
+              "name": "product-ad-settings.js",
+              "children": [],
+              "isFile": 19
+            },
+            {
+              "name": "subnavigation.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "tabs.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "tour.js",
+          "children": [],
+          "isFile": 4
+        },
+        {
+          "name": "controllers",
+          "children": [
+            {
+              "name": "campaigns-sync.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "expansion-tools.js",
+              "children": [],
+              "isFile": 15
+            },
+            {
+              "name": "grid.js",
+              "children": [],
+              "isFile": 4
+            },
+            {
+              "name": "serializer.js",
+              "children": [],
+              "isFile": 10
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "app.js",
+          "children": [],
+          "isFile": 3
+        },
+        {
+          "name": "main.js",
+          "children": [],
+          "isFile": 4
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "filter",
+      "children": [
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "filters-entry.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "filters-item.js",
+              "children": [],
+              "isFile": 12
+            },
+            {
+              "name": "ChannelsView.js",
+              "children": [],
+              "isFile": 12
+            },
+            {
+              "name": "SearchView.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "SegmentsView.js",
+              "children": [],
+              "isFile": 12
+            },
+            {
+              "name": "SegmentLevelView.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "control-bar.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "dropdown-filters.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "filter.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "filters-bar.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "filters-collection.js",
+              "children": [],
+              "isFile": 18
+            },
+            {
+              "name": "filters-edition.js",
+              "children": [],
+              "isFile": 15
+            },
+            {
+              "name": "filters-entries.js",
+              "children": [],
+              "isFile": 15
+            },
+            {
+              "name": "filters-group.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "filters-groups-history.js",
+              "children": [],
+              "isFile": 22
+            },
+            {
+              "name": "filters-layout.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "quick-filters-dropdown.js",
+              "children": [],
+              "isFile": 22
+            },
+            {
+              "name": "quick-filters.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "search-filter.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "segment-layout.js",
+              "children": [],
+              "isFile": 14
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "filters.js",
+              "children": [],
+              "isFile": 7
+            },
+            {
+              "name": "acq-filters.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "acq-level-filters.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "acq-filters-group.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "acq-level-filters-group.js",
+              "children": [],
+              "isFile": 23
+            },
+            {
+              "name": "acq-segment.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "acq-level-segment.js",
+              "children": [],
+              "isFile": 17
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "constants",
+          "children": [
+            {
+              "name": "filter-levels.js",
+              "children": [],
+              "isFile": 13
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "main.js",
+          "children": [],
+          "isFile": 4
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "grid",
+      "children": [
+        {
+          "name": "editors",
+          "children": [
+            {
+              "name": "workbench.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "advanced.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "budget.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "currency.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "datepicker.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "status.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "uri.js",
+              "children": [],
+              "isFile": 3
+            },
+            {
+              "name": "keyword.js",
+              "children": [],
+              "isFile": 7
+            },
+            {
+              "name": "devices-bid-modifier.js",
+              "children": [],
+              "isFile": 20
+            },
+            {
+              "name": "product-group-max-cpc.js",
+              "children": [],
+              "isFile": 21
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "duckpunch.js",
+          "children": [],
+          "isFile": 9
+        },
+        {
+          "name": "formatters.js",
+          "children": [],
+          "isFile": 10
+        },
+        {
+          "name": "cell-editor.js",
+          "children": [],
+          "isFile": 11
+        },
+        {
+          "name": "cells.js",
+          "children": [],
+          "isFile": 5
+        },
+        {
+          "name": "mixins.js",
+          "children": [],
+          "isFile": 6
+        },
+        {
+          "name": "cell-mapper.js",
+          "children": [],
+          "isFile": 11
+        },
+        {
+          "name": "headers.js",
+          "children": [],
+          "isFile": 7
+        },
+        {
+          "name": "pager.js",
+          "children": [],
+          "isFile": 5
+        },
+        {
+          "name": "select-all.js",
+          "children": [],
+          "isFile": 10
+        },
+        {
+          "name": "body.js",
+          "children": [],
+          "isFile": 4
+        },
+        {
+          "name": "column.js",
+          "children": [],
+          "isFile": 6
+        },
+        {
+          "name": "footer.js",
+          "children": [],
+          "isFile": 6
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "kpi",
+      "children": [
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "kpi-metrics.js",
+              "children": [],
+              "isFile": 11
+            },
+            {
+              "name": "kpi-bucket.js",
+              "children": [],
+              "isFile": 10
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "kpi",
+              "children": [
+                {
+                  "name": "kpi-gauge-progress.js",
+                  "children": [],
+                  "isFile": 18
+                },
+                {
+                  "name": "kpi-gauge-target.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "kpi-metric-mixin.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "kpi-metric.js",
+                  "children": [],
+                  "isFile": 10
+                },
+                {
+                  "name": "kpi-sort-mixin.js",
+                  "children": [],
+                  "isFile": 14
+                },
+                {
+                  "name": "kpi-row.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "bucket-list.js",
+                  "children": [],
+                  "isFile": 11
+                },
+                {
+                  "name": "detail-chart.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "kpi-collection.js",
+                  "children": [],
+                  "isFile": 14
+                },
+                {
+                  "name": "kpi-detail.js",
+                  "children": [],
+                  "isFile": 10
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "add-kpi.js",
+              "children": [],
+              "isFile": 7
+            },
+            {
+              "name": "dashboard.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "editor.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "layout.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "qa-graph.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "qa-layout.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "subnav.js",
+              "children": [],
+              "isFile": 6
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "controller.js",
+          "children": [],
+          "isFile": 10
+        },
+        {
+          "name": "main.js",
+          "children": [],
+          "isFile": 4
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "product-groups",
+      "children": [
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "dimension-group.js",
+              "children": [],
+              "isFile": 15
+            },
+            {
+              "name": "dimension-type.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "selected-group.js",
+              "children": [],
+              "isFile": 14
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "dimension-menu",
+              "children": [
+                {
+                  "name": "manual-dimension-input.js",
+                  "children": [],
+                  "isFile": 22
+                },
+                {
+                  "name": "available-values.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "selected-values.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "layout.js",
+                  "children": [],
+                  "isFile": 6
+                }
+              ],
+              "isFile": -1
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "controllers",
+          "children": [
+            {
+              "name": "dimension-menu.js",
+              "children": [],
+              "isFile": 14
+            }
+          ],
+          "isFile": -1
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "columnPicker",
+      "children": [
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "Columns.js",
+              "children": [],
+              "isFile": 7
+            },
+            {
+              "name": "CustomColumn.js",
+              "children": [],
+              "isFile": 12
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "CustomColumnView.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "columns-menu.js",
+              "children": [],
+              "isFile": 12
+            },
+            {
+              "name": "columnsPickerView.js",
+              "children": [],
+              "isFile": 17
+            }
+          ],
+          "isFile": -1
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "bulkEdit",
+      "children": [
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "BulkEditActionView.js",
+              "children": [],
+              "isFile": 18
+            },
+            {
+              "name": "BulkEditView.js",
+              "children": [],
+              "isFile": 12
+            }
+          ],
+          "isFile": -1
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "graph",
+      "children": [
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "GraphEditionView.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "GraphView.js",
+              "children": [],
+              "isFile": 9
+            }
+          ],
+          "isFile": -1
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "postChanges",
+      "children": [
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "PostChanges.js",
+              "children": [],
+              "isFile": 11
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "PastilleView.js",
+              "children": [],
+              "isFile": 12
+            },
+            {
+              "name": "PostingChangesView.js",
+              "children": [],
+              "isFile": 18
+            },
+            {
+              "name": "SummaryPostChanges.js",
+              "children": [],
+              "isFile": 18
+            }
+          ],
+          "isFile": -1
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "entity-creation",
+      "children": [
+        {
+          "name": "utils",
+          "children": [
+            {
+              "name": "parser-map.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "parser.js",
+              "children": [],
+              "isFile": 6
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "constants",
+          "children": [
+            {
+              "name": "attributes.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "ad-group-attributes.js",
+              "children": [],
+              "isFile": 19
+            },
+            {
+              "name": "campaign-attributes.js",
+              "children": [],
+              "isFile": 19
+            },
+            {
+              "name": "dynamic-search-ad-attributes.js",
+              "children": [],
+              "isFile": 28
+            },
+            {
+              "name": "keyword-attributes.js",
+              "children": [],
+              "isFile": 18
+            },
+            {
+              "name": "text-ad-attributes.js",
+              "children": [],
+              "isFile": 18
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "ad-extension-entities-validation.js",
+              "children": [],
+              "isFile": 32
+            },
+            {
+              "name": "ad-extension-location.js",
+              "children": [],
+              "isFile": 21
+            },
+            {
+              "name": "ad-extension.js",
+              "children": [],
+              "isFile": 12
+            },
+            {
+              "name": "entity.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "ad-group-child.js",
+              "children": [],
+              "isFile": 14
+            },
+            {
+              "name": "ad-group.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "autotarget.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "dynamic-search-ad.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "error.js",
+              "children": [],
+              "isFile": 5
+            },
+            {
+              "name": "keyword.js",
+              "children": [],
+              "isFile": 7
+            },
+            {
+              "name": "state.js",
+              "children": [],
+              "isFile": 5
+            },
+            {
+              "name": "text-ad.js",
+              "children": [],
+              "isFile": 7
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "creation-base.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "campaign-tree.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "ad-group-tree.js",
+              "children": [],
+              "isFile": 13
+            },
+            {
+              "name": "simple-advanced-creation.js",
+              "children": [],
+              "isFile": 24
+            },
+            {
+              "name": "ad-group-creation.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "adextension",
+              "children": [
+                {
+                  "name": "base.js",
+                  "children": [],
+                  "isFile": 4
+                },
+                {
+                  "name": "account.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "adgroup.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "campaign.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "entity-selector.js",
+                  "children": [],
+                  "isFile": 15
+                },
+                {
+                  "name": "form-devices-filters.js",
+                  "children": [],
+                  "isFile": 20
+                },
+                {
+                  "name": "form-location-filters.js",
+                  "children": [],
+                  "isFile": 21
+                },
+                {
+                  "name": "form-location-pick.js",
+                  "children": [],
+                  "isFile": 18
+                },
+                {
+                  "name": "selected-entities.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "autotarget-conditions.js",
+              "children": [],
+              "isFile": 21
+            },
+            {
+              "name": "campaign-creation.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "creation-search-queries.js",
+              "children": [],
+              "isFile": 23
+            },
+            {
+              "name": "error.js",
+              "children": [],
+              "isFile": 5
+            },
+            {
+              "name": "grid.js",
+              "children": [],
+              "isFile": 4
+            },
+            {
+              "name": "publishers.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "swappable-text-grid-action-bar.js",
+              "children": [],
+              "isFile": 30
+            },
+            {
+              "name": "swappable-text-grid.js",
+              "children": [],
+              "isFile": 19
+            },
+            {
+              "name": "text.js",
+              "children": [],
+              "isFile": 4
+            },
+            {
+              "name": "tips.js",
+              "children": [],
+              "isFile": 4
+            },
+            {
+              "name": "unresolved-parents.js",
+              "children": [],
+              "isFile": 18
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "controllers",
+          "children": [
+            {
+              "name": "ad-extension.js",
+              "children": [],
+              "isFile": 12
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "controller.js",
+          "children": [],
+          "isFile": 10
+        },
+        {
+          "name": "controller-searchqueries.js",
+          "children": [],
+          "isFile": 24
+        },
+        {
+          "name": "controller-mapper.js",
+          "children": [],
+          "isFile": 17
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "negative-keyword",
+      "children": [
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "negative-keyword.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "natural-sort-pageable-collection.js",
+              "children": [],
+              "isFile": 32
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "utils",
+          "children": [
+            {
+              "name": "parser.js",
+              "children": [],
+              "isFile": 6
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "action-bar.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "adgroup-campaign.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "selector.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "form.js",
+              "children": [],
+              "isFile": 4
+            },
+            {
+              "name": "grid.js",
+              "children": [],
+              "isFile": 4
+            },
+            {
+              "name": "layout.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "manage.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "manageWebsite.js",
+              "children": [],
+              "isFile": 13
+            }
+          ],
+          "isFile": -1
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "campaign-settings",
+      "children": [
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "adwords",
+              "children": [
+                {
+                  "name": "sub-models",
+                  "children": [
+                    {
+                      "name": "adscheduling.js",
+                      "children": [],
+                      "isFile": 12
+                    },
+                    {
+                      "name": "languages.js",
+                      "children": [],
+                      "isFile": 9
+                    },
+                    {
+                      "name": "locations.js",
+                      "children": [],
+                      "isFile": 9
+                    },
+                    {
+                      "name": "main.js",
+                      "children": [],
+                      "isFile": 4
+                    }
+                  ],
+                  "isFile": -1
+                },
+                {
+                  "name": "general.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "adscheduling.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "advanced.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "basic.js",
+                  "children": [],
+                  "isFile": 5
+                },
+                {
+                  "name": "devices.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "shopping.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "geotargeting.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "language.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "main.js",
+                  "children": [],
+                  "isFile": 4
+                },
+                {
+                  "name": "inventory-filter.js",
+                  "children": [],
+                  "isFile": 16
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "bing",
+              "children": [
+                {
+                  "name": "sub-models",
+                  "children": [
+                    {
+                      "name": "locations.js",
+                      "children": [],
+                      "isFile": 9
+                    },
+                    {
+                      "name": "adscheduling.js",
+                      "children": [],
+                      "isFile": 12
+                    },
+                    {
+                      "name": "main.js",
+                      "children": [],
+                      "isFile": 4
+                    }
+                  ],
+                  "isFile": -1
+                },
+                {
+                  "name": "general.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "adscheduling.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "advanced.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "devices.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "geotargeting.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "main.js",
+                  "children": [],
+                  "isFile": 4
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "yahoojapan",
+              "children": [
+                {
+                  "name": "sub-models",
+                  "children": [
+                    {
+                      "name": "adscheduling.js",
+                      "children": [],
+                      "isFile": 12
+                    },
+                    {
+                      "name": "locations.js",
+                      "children": [],
+                      "isFile": 9
+                    },
+                    {
+                      "name": "main.js",
+                      "children": [],
+                      "isFile": 4
+                    }
+                  ],
+                  "isFile": -1
+                },
+                {
+                  "name": "general.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "adscheduling.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "advanced.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "basic.js",
+                  "children": [],
+                  "isFile": 5
+                },
+                {
+                  "name": "devices.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "shopping.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "geotargeting.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "main.js",
+                  "children": [],
+                  "isFile": 4
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "campaign-creation.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "campaign-settings.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "map-targeting",
+              "children": [
+                {
+                  "name": "map-target.js",
+                  "children": [],
+                  "isFile": 10
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "main.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "misc",
+              "children": [
+                {
+                  "name": "errors-columns.js",
+                  "children": [],
+                  "isFile": 14
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "creation.js",
+              "children": [],
+              "isFile": 8
+            },
+            {
+              "name": "validation.js",
+              "children": [],
+              "isFile": 10
+            },
+            {
+              "name": "adwords",
+              "children": [
+                {
+                  "name": "misc",
+                  "children": [
+                    {
+                      "name": "geotargeting-columns.js",
+                      "children": [],
+                      "isFile": 20
+                    },
+                    {
+                      "name": "language-columns.js",
+                      "children": [],
+                      "isFile": 16
+                    },
+                    {
+                      "name": "device-columns.js",
+                      "children": [],
+                      "isFile": 14
+                    },
+                    {
+                      "name": "adscheduling-columns.js",
+                      "children": [],
+                      "isFile": 20
+                    }
+                  ],
+                  "isFile": -1
+                },
+                {
+                  "name": "general.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "adscheduling.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "advanced.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "basic.js",
+                  "children": [],
+                  "isFile": 5
+                },
+                {
+                  "name": "devices.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "inventory-filter.js",
+                  "children": [],
+                  "isFile": 16
+                },
+                {
+                  "name": "shopping.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "geotargeting.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "language.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "main.js",
+                  "children": [],
+                  "isFile": 4
+                },
+                {
+                  "name": "campaign-settings.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "bing",
+              "children": [
+                {
+                  "name": "misc",
+                  "children": [
+                    {
+                      "name": "geotargeting-columns.js",
+                      "children": [],
+                      "isFile": 20
+                    },
+                    {
+                      "name": "adscheduling-columns.js",
+                      "children": [],
+                      "isFile": 20
+                    },
+                    {
+                      "name": "bid-modifier-mixin.js",
+                      "children": [],
+                      "isFile": 18
+                    },
+                    {
+                      "name": "device-columns.js",
+                      "children": [],
+                      "isFile": 14
+                    }
+                  ],
+                  "isFile": -1
+                },
+                {
+                  "name": "general.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "adscheduling.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "advanced.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "devices.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "geotargeting.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "main.js",
+                  "children": [],
+                  "isFile": 4
+                },
+                {
+                  "name": "campaign-settings.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "yahoojapan",
+              "children": [
+                {
+                  "name": "misc",
+                  "children": [
+                    {
+                      "name": "geotargeting-columns.js",
+                      "children": [],
+                      "isFile": 20
+                    },
+                    {
+                      "name": "device-columns.js",
+                      "children": [],
+                      "isFile": 14
+                    },
+                    {
+                      "name": "adscheduling-columns.js",
+                      "children": [],
+                      "isFile": 20
+                    }
+                  ],
+                  "isFile": -1
+                },
+                {
+                  "name": "general.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "adscheduling.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "advanced.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "basic.js",
+                  "children": [],
+                  "isFile": 5
+                },
+                {
+                  "name": "devices.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "geotargeting.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "main.js",
+                  "children": [],
+                  "isFile": 4
+                },
+                {
+                  "name": "campaign-settings.js",
+                  "children": [],
+                  "isFile": 17
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "campaign-settings.js",
+              "children": [],
+              "isFile": 17
+            },
+            {
+              "name": "map-targeting",
+              "children": [
+                {
+                  "name": "distance-targeting.js",
+                  "children": [],
+                  "isFile": 18
+                },
+                {
+                  "name": "radius-targeting.js",
+                  "children": [],
+                  "isFile": 16
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "main.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "data-mapper.js",
+          "children": [],
+          "isFile": 11
+        },
+        {
+          "name": "data-assembler.js",
+          "children": [],
+          "isFile": 14
+        },
+        {
+          "name": "main.js",
+          "children": [],
+          "isFile": 4
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "adgroup-settings",
+      "children": [
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "bing",
+              "children": [
+                {
+                  "name": "sub-models",
+                  "children": [
+                    {
+                      "name": "locations.js",
+                      "children": [],
+                      "isFile": 9
+                    },
+                    {
+                      "name": "main.js",
+                      "children": [],
+                      "isFile": 4
+                    }
+                  ],
+                  "isFile": -1
+                },
+                {
+                  "name": "basic.js",
+                  "children": [],
+                  "isFile": 5
+                },
+                {
+                  "name": "general.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "adscheduling.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "advanced.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "devices.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "geotargeting.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "main.js",
+                  "children": [],
+                  "isFile": 4
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "adgroup-settings.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "main.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "bing",
+              "children": [
+                {
+                  "name": "misc",
+                  "children": [
+                    {
+                      "name": "utils.js",
+                      "children": [],
+                      "isFile": 5
+                    },
+                    {
+                      "name": "geotargeting-columns.js",
+                      "children": [],
+                      "isFile": 20
+                    },
+                    {
+                      "name": "adscheduling-columns.js",
+                      "children": [],
+                      "isFile": 20
+                    },
+                    {
+                      "name": "device-columns.js",
+                      "children": [],
+                      "isFile": 14
+                    }
+                  ],
+                  "isFile": -1
+                },
+                {
+                  "name": "basic.js",
+                  "children": [],
+                  "isFile": 5
+                },
+                {
+                  "name": "general.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "adscheduling.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "advanced.js",
+                  "children": [],
+                  "isFile": 8
+                },
+                {
+                  "name": "devices.js",
+                  "children": [],
+                  "isFile": 7
+                },
+                {
+                  "name": "geotargeting.js",
+                  "children": [],
+                  "isFile": 12
+                },
+                {
+                  "name": "main.js",
+                  "children": [],
+                  "isFile": 4
+                }
+              ],
+              "isFile": -1
+            },
+            {
+              "name": "adgroup-settings.js",
+              "children": [],
+              "isFile": 16
+            },
+            {
+              "name": "main.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "main.js",
+          "children": [],
+          "isFile": 4
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "sync",
+      "children": [
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "button.js",
+              "children": [],
+              "isFile": 6
+            },
+            {
+              "name": "popup.js",
+              "children": [],
+              "isFile": 5
+            }
+          ],
+          "isFile": -1
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "jobs",
+      "children": [
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "job.js",
+              "children": [],
+              "isFile": 3
+            },
+            {
+              "name": "jobs.js",
+              "children": [],
+              "isFile": 4
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "email-notification.js",
+              "children": [],
+              "isFile": 18
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "controller.js",
+          "children": [],
+          "isFile": 10
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "export",
+      "children": [
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "export.js",
+              "children": [],
+              "isFile": 6
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "models",
+          "children": [
+            {
+              "name": "export.js",
+              "children": [],
+              "isFile": 6
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "controller.js",
+          "children": [],
+          "isFile": 10
+        }
+      ],
+      "isFile": -1
+    },
+    {
+      "name": "job-queue",
+      "children": [
+        {
+          "name": "controller.js",
+          "children": [],
+          "isFile": 10
+        },
+        {
+          "name": "model",
+          "children": [
+            {
+              "name": "user-active-jobs.js",
+              "children": [],
+              "isFile": 16
+            }
+          ],
+          "isFile": -1
+        },
+        {
+          "name": "views",
+          "children": [
+            {
+              "name": "job-queue.js",
+              "children": [],
+              "isFile": 9
+            },
+            {
+              "name": "notification-dialog.js",
+              "children": [],
+              "isFile": 19
+            }
+          ],
+          "isFile": -1
+        }
+      ],
+      "isFile": -1
+    }
+  ]
+}

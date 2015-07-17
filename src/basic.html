@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="assets/app.css">
+    <title>Basic Example</title>
+</head>
+<body>
+
+
+</body>
+<script type="text/javascript" src="../bower_components/d3/d3.min.js"></script>
+<script>
+    var w = 500, h = 100, padding = 2, dataset = [1,2,3,5,8,13,21,34,55,89];
+
+    var svg = d3.select('body')
+            .append('svg')
+            .attr('width', w)
+            .attr('height', h);
+    svg.selectAll('rect')
+            .data(dataset)
+            .enter()
+            .append('rect')
+            .style('fill', function(data){
+                return 'rgb(' + (data*10) + ',0,0)'
+            })
+            .attr('x',function(data,index){
+                return index * ( w / dataset.length);
+            })
+            .attr('y', function( data ){
+                return h - (data); // coordinates system is upside down.
+
+            })
+            .attr('width', w / dataset.length - padding)
+            .attr('height', function(data){
+                return ( data / h ) * h;
+            });
+</script>
+
+</html>
