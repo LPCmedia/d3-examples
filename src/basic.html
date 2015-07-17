@@ -5,35 +5,66 @@
     <title>Basic Example</title>
 </head>
 <body>
-
-
 </body>
 <script type="text/javascript" src="../bower_components/d3/d3.min.js"></script>
 <script>
-    var w = 500, h = 100, padding = 2, dataset = [1,2,3,5,8,13,21,34,55,89];
+    var w = 500, h = 400, padding = 2, dataset = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89], lineHeight = 10;
+
+    var maxElement = dataset.reduce(function (prev, cur) {
+        return ( prev < cur ? cur : prev );
+    });
+
 
     var svg = d3.select('body')
             .append('svg')
             .attr('width', w)
-            .attr('height', h);
+            .attr('height', h)
+            .attr('class', 'chart-container');
     svg.selectAll('rect')
             .data(dataset)
             .enter()
             .append('rect')
-            .style('fill', function(data){
-                return 'rgb(' + (data*10) + ',0,0)'
+            .style('fill', function (data) {
+                return 'rgb(' + (data * 10) + ',0,0)'
             })
-            .attr('x',function(data,index){
+            .attr('x', function (data, index) {
                 return index * ( w / dataset.length);
             })
-            .attr('y', function( data ){
-                return h - (data); // coordinates system is upside down.
+            .attr('y', function (data) {
+                console.log('relative', h / maxElement);
+                return h - ( h / (maxElement + lineHeight)) * data; // coordinates system is upside down.
 
             })
             .attr('width', w / dataset.length - padding)
-            .attr('height', function(data){
-                return ( data / h ) * h;
+            .attr('height', function () {
+                return ( h / (maxElement + lineHeight) ) * h;
             });
+
+    svg.selectAll('text')
+            .data(dataset)
+            .enter()
+            .append('text')
+            .text(function (data) {
+                return data;
+            })
+            .attr(
+            {
+                'text-anchor': 'middle',
+                x: function (data, index) {
+                    return index * ( w / dataset.length ) + ( w / dataset.length - padding) / 2;
+                },
+                y: function (data) {
+                    return h - ( h / (maxElement + lineHeight) ) * data - lineHeight;
+                },
+
+                'font-family': 'sans-serif',
+                'font-size': 12,
+                'fill': '#000',
+                'class': 'label',
+                'data-bar': function(data,index){
+                    return 'bar-' + index;
+                }
+            })
 </script>
 
 </html>
