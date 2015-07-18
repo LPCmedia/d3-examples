@@ -2,7 +2,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <link type="text/css" rel="stylesheet" href="assets/app.css">
-    <title>Basic - Bar Chart</title>
+    <title>Basic - CSV Example</title>
 </head>
 <body>
 </body>
@@ -11,6 +11,7 @@
     var w = 500, h = 900;
     var ds; // empty dataset
 
+    // The main call to csv or external data is async...
     d3.csv('../data/monthlysales.csv', function (err, data) {
 
         if (err) {
@@ -22,7 +23,7 @@
             // loads a csv as an array. Potential application to validate csv data since
             // d3 parses into array of objects really fast.
             // could show a user the amount of rows
-            // however d3 assumes all data is string. 
+            // however d3 assumes all data is string.
 
         }
         var line = d3.svg.line()
