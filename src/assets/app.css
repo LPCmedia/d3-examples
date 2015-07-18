@@ -40,3 +40,13 @@
     background-color: #EEEEEE;
     padding: 10px 10px 10px 10px;
 }
+
+.bar-chart-label {
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: #cccccc;
+}
+.chart-label-above {
+
+}
