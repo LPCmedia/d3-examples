@@ -1,0 +1,109 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="assets/app.css">
+    <title>Basic - Bar Chart</title>
+</head>
+<body>
+</body>
+<script type="text/javascript" src="../bower_components/d3/d3.min.js"></script>
+<script>
+    var w = 500, h = 900;
+    var ds; // empty dataset
+
+    d3.csv('../data/monthlysales.csv', function (err, data) {
+
+        if (err) {
+            console.log('Error loading', err);
+        } else {
+            console.log('Data csv', data);
+            ds = data;
+
+            // loads a csv as an array. Potential application to validate csv data since
+            // d3 parses into array of objects really fast.
+            // could show a user the amount of rows
+            // however d3 assumes all data is string. 
+
+        }
+        var line = d3.svg.line()
+                .x(function (data) {
+                    return ((data.month - 20150001) / 3.25);
+                })
+                .y(function(data){
+                    return h - data.sales;
+                })
+                .interpolate('linear');
+
+        var svg = d3.select('body')
+                .append('svg')
+                .attr({
+                    width: w,
+                    height: h
+                });
+
+        var viz = svg.append('path')
+                .attr({
+                    d: line(ds),
+                    'stroke': 'purple',
+                    'stroke-width': 2,
+                    'fill': 'none'
+                });
+
+
+
+    });
+
+
+    /*
+     var svg = d3.select('body')
+     .append('svg')
+     .attr('width', w)
+     .attr('height', h)
+     .attr('class', 'chart-container');
+     svg.selectAll('rect')
+     .data(dataset)
+     .enter()
+     .append('rect')
+     .style('fill', function (data) {
+     return 'rgb(' + Math.round(100+(data * 1.4)) + ',0,0)'
+     })
+     .attr('x', function (data, index) {
+     return index === 0 ? 0 : padding + index * ( w / dataset.length);
+     })
+     .attr('y', function (data) {
+     return h - ( h / (maxElement + lineHeight + 2 * padding)) * data; // coordinates system is upside down.
+
+     })
+     .attr('width', w / dataset.length - padding)
+     .attr('height', function () {
+     return ( h / (maxElement + lineHeight + 2 * padding) ) * h;
+     });
+
+     svg.selectAll('text')
+     .data(dataset)
+     .enter()
+     .append('text')
+     .text(function (data) {
+     return data;
+     })
+     .attr(
+     {
+     'text-anchor': 'middle',
+     x: function (data, index) {
+     return index * ( w / dataset.length ) + ( w / dataset.length + (index === 0 ? -padding : padding)) / 2;  // no padding on first element
+     },
+     y: function (data) {
+     return h - ( h / (maxElement + lineHeight + 2 * padding)) * data - lineHeight;
+     },
+
+     'font-family': 'sans-serif',
+     'font-size': 12,
+     'fill': '#000',
+     'class': 'bar-chart-label chart-label-above',
+     'data-bar': function(data,index){
+     return 'bar-' + index;
+     }
+     })*/
+</script>
+
+</html>
