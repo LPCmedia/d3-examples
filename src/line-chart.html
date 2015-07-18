@@ -1,0 +1,74 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="assets/app.css">
+    <title>Basic - Line Chart</title>
+</head>
+<body>
+</body>
+<script type="text/javascript" src="../bower_components/d3/d3.min.js"></script>
+<script>
+    var w = 500, h = 800, padding = 10, lineHeight = 10;
+    var dataset = [
+        {'month': 1, 'sales': 210},
+        {'month': 2, 'sales': 200},
+        {'month': 3, 'sales': 350},
+        {'month': 4, 'sales': 320},
+        {'month': 5, 'sales': 420},
+        {'month': 6, 'sales': 320},
+        {'month': 7, 'sales': 520},
+        {'month': 8, 'sales': 620},
+        {'month': 9, 'sales': 650},
+        {'month': 10, 'sales': 720},
+        {'month': 11, 'sales': 630},
+        {'month': 12, 'sales': 420}
+    ];
+
+    // create a function that will handle drawing the line
+    var line = d3.svg.line()
+            .x(function (data) {
+                return data.month * 12;
+            })
+            .y(function (data) {
+                return h - data.sales;
+            })
+            .interpolate('linear');
+    var svg = d3.select('body')
+            .append('svg')
+            .attr({
+                width: w,
+                height: h
+            })
+            .attr('class', 'chart-container');
+
+
+    // using path to draw a line. This is where d3 starts being useful
+    var viz = svg.append('path')
+            .attr({
+                d: line(dataset),
+                'stroke': 'purple',
+                'stroke-width': 2,
+                'fill': 'none'
+            });
+    // adding labels
+    var labels = svg.selectAll('text')
+            .data(dataset)
+            .enter()
+            .append('text')
+            .text(function(data){
+                return data.sales;
+            })
+            .attr({
+                x: function(data){
+                    return data.month *12 -25;
+                },
+                y: function(data){
+                    return h - data.sales;
+                },
+                'class': 'bar-chart-label'
+            });
+
+
+</script>
+
+</html>
