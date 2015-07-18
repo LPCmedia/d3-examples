@@ -10,9 +10,70 @@
 <script>
     var w = 500, h = 900;
     var ds; // empty dataset
+    var salesTotal=0.0; // set to decimal for data type
+    var salesAvg = 0.0;
+    var metrics =[];
 
     // The main call to csv or external data is async...
     d3.csv('../data/monthlysales.csv', function (err, data) {
+
+        function buildLine (){
+
+            var line = d3.svg.line()
+                    .x(function (data) {
+                        return ((data.month - 20150001) / 3.25);
+                    })
+                    .y(function(data){
+                        return h - data.sales;
+                    })
+                    .interpolate('linear');
+
+            var svg = d3.select('body')
+                    .append('svg')
+                    .attr({
+                        width: w,
+                        height: h
+                    });
+
+            var viz = svg.append('path')
+                    .attr({
+                        d: line(ds),
+                        'stroke': 'purple',
+                        'stroke-width': 2,
+                        'fill': 'none'
+                    });
+
+        };
+        function showTotals() {
+            var t = d3.select('body').append('table');
+
+            // get total
+            for ( var i = 0 ; i < ds.length; i ++ ){
+                salesTotal += ds[i].sales*1; // convert to number hack *1
+            }
+
+            salesAvg = salesTotal / ds.length;
+
+            // add metrics to array
+            metrics.push('Sales Total: ' + salesTotal);
+            metrics.push('Sales Avg: ' + salesAvg.toFixed(2));
+
+            // add total to table
+            var tr = t.selectAll('tr')
+                    .data(metrics) // arbitrary to draw a row
+                    .enter()
+                    .append('tr')
+                    .append('td')
+                    .text(function(data){
+                        return data;
+                    });
+
+
+
+
+        };
+
+
 
         if (err) {
             console.log('Error loading', err);
@@ -26,31 +87,9 @@
             // however d3 assumes all data is string.
 
         }
-        var line = d3.svg.line()
-                .x(function (data) {
-                    return ((data.month - 20150001) / 3.25);
-                })
-                .y(function(data){
-                    return h - data.sales;
-                })
-                .interpolate('linear');
 
-        var svg = d3.select('body')
-                .append('svg')
-                .attr({
-                    width: w,
-                    height: h
-                });
-
-        var viz = svg.append('path')
-                .attr({
-                    d: line(ds),
-                    'stroke': 'purple',
-                    'stroke-width': 2,
-                    'fill': 'none'
-                });
-
-
+        buildLine();
+        showTotals();
 
     });
 
