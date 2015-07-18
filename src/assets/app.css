@@ -41,7 +41,7 @@
     padding: 10px 10px 10px 10px;
 }
 
-.bar-chart-label {
+.bar-chart-label, .chart-label {
     font-size: 12px;
     font-family: sans-serif;
     font-weight: bold;

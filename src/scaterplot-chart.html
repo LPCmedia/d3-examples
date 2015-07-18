@@ -1,0 +1,103 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="assets/app.css">
+    <title>Basic - Line Chart</title>
+</head>
+<body>
+</body>
+<script type="text/javascript" src="../bower_components/d3/d3.min.js"></script>
+<script>
+    var w = 500, h = 800, radius = 5;
+    var dataset = [
+        {'month': 1, 'sales': 210},
+        {'month': 2, 'sales': 200},
+        {'month': 3, 'sales': 350},
+        {'month': 4, 'sales': 320},
+        {'month': 5, 'sales': 420},
+        {'month': 6, 'sales': 320},
+        {'month': 7, 'sales': 520},
+        {'month': 8, 'sales': 620},
+        {'month': 9, 'sales': 650},
+        {'month': 10, 'sales': 720},
+        {'month': 11, 'sales': 630},
+        {'month': 12, 'sales': 420}
+    ];
+
+    // example kpi indicator to color data
+    function salesKPI( data) {
+        if ( data >= 350 ) {
+            return '#33CC66';
+        }
+        else {
+            return '#FF0000';
+        }
+    };
+
+    function showMinMax ( ds, column, value, type ){
+        var max = d3.max(ds, function(d){
+            return d[column];
+        });
+        var min = d3.min(ds, function(d){
+            return d[column];
+        });
+
+        if ( type === 'minmax' && ( value === max || value == min )){
+            return value;
+        }
+        else {
+            if ( type === 'all' ){
+                return value;
+            }
+        }
+
+    }
+
+    var svg = d3.select('body')
+            .append('svg')
+            .attr({
+                width: w,
+                height: h
+            })
+            .attr('class', 'chart-container');
+
+    var dots = svg.selectAll('circle')
+            .data(dataset)
+            .enter()
+            .append('circle')
+            .attr({
+                cx: function (data) {
+                    return data.month * 12;
+                },
+                cy: function (data) {
+                    return h - data.sales;
+                },
+                r: radius,
+                'fill': function(data)
+                {
+                    return salesKPI(data.sales);
+                }
+            });
+
+    var labels = svg.selectAll('text')
+            .data(dataset)
+            .enter()
+            .append('text')
+            .text(function(data){
+                return showMinMax(dataset, 'sales', data.sales, 'minmax'); // minmax is a param that could be bound to user input to show all labels or only min and max.
+            })
+            .attr({
+                x: function(data){
+                    return (data.month *12) + 25;
+                },
+                y: function(data){
+                    return h- data.sales;
+                },
+                'class': 'chart-label'
+            });
+
+
+
+</script>
+
+</html>
