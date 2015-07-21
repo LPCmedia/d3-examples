@@ -38,7 +38,6 @@
 }
 .chart-container{
     background-color: #EEEEEE;
-    padding: 10px 10px 10px 10px;
 }
 
 .bar-chart-label, .chart-label {
@@ -47,6 +46,39 @@
     font-weight: bold;
     background-color: #cccccc;
 }
-.chart-label-above {
+
+.bar-chart .bar:hover {
+    fill: blue;
+}
+
+.bar-chart .axis {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.bar-chart .axis text {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
 
 }
+
+.bar-chart > .axis.x .tick line {
+    display: none;
+}
+
+.bar-chart > .axis.x .tick line {
+    display: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+

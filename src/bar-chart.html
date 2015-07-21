@@ -8,69 +8,103 @@
 </body>
 <script type="text/javascript" src="../bower_components/d3/d3.js"></script>
 <script>
-    var w = 600, h = 300, padding = 10, dataset = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89], lineHeight = 10;
+    var margin = {top:10, right:10, bottom: 30, left:30},
+            w = 900 - margin.left - margin.right,
+            h = 500 - margin.top - margin.bottom,
+            dataset = [
+                { name: 'A', value: 1 },
+                { name: 'B', value: 2 },
+                { name: 'C', value: 3 },
+                { name: 'D', value: 5 },
+                { name: 'E', value: 8 },
+                { name: 'F', value: 13 },
+                { name: 'G', value: 21 },
+                { name: 'H', value: 34 },
+                { name: 'I', value: 55 },
+                { name: 'J', value: 89 }
+            ];
 
     var maxElement = dataset.reduce(function (prev, cur) {
-        return ( prev < cur ? cur : prev );
+        if ( prev && prev.value ) {
+            return prev.value;
+        }
+        return ( prev !== undefined && prev < cur.value ? cur.value : prev );
     });
 
+    // Scales
     var yScale = d3.scale.linear()
             .domain([0, maxElement]) // the domain represents our values in our data
-            .range([padding, h - padding - lineHeight]); // values in the svg representation the output range
+            .range([h, 0]); // values in the svg representation the output range
+
+    var xScale = d3.scale.ordinal()
+            .domain(dataset.map(function(d){
+                return d.name;
+            }))
+            .rangeRoundBands([0, w], .1);
+
+    // Axis
+    var yAxis = d3.svg.axis()
+            .scale(yScale)
+            .orient('left');
 
 
-    var svg = d3.select('body')
+    var xAxis = d3.svg.axis()
+            .scale(xScale)
+            .orient('bottom');
+
+
+    var barChart = d3.select('body')
             .append('svg')
-            .attr('width', w)
-            .attr('height', h)
-            .attr('class', 'chart-container');
-    svg.selectAll('rect')
+                .attr('width', w + margin.left + margin.right)
+                .attr('height', h + margin.top + margin.bottom)
+                .attr('class', 'chart-container')
+                .append('g')
+                    .attr('class', 'bar-chart')
+                    .attr('transform', 'translate(' + margin.left +',' + margin.top + ')');
+    barChart.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + h + ")")
+            .call(xAxis);
+
+    barChart.append('g')
+            .attr('class', 'y axis')
+            .call(yAxis)
+            .append('text')
+            .attr('transform', 'rotate(-90)')
+            .attr('y', 6)
+            .attr('dy', '.71em')
+            .style('text-anchor', 'end')
+            .text('Number');
+
+    barChart.selectAll('rect')
             .data(dataset)
             .enter()
             .append('rect')
-            .style('fill', function (data) {
-                return 'rgb(' + Math.round(100 + (data * 1.4)) + ',0,0)'
-            })
+
             .attr({
-                'x': function (data, index) {
-                    return index === 0 ? 0 : padding + index * ( w / dataset.length);
+                'x': function(data){
+                    return xScale(data.name);
                 },
                 'y': function (data) {
-                    return h - yScale(data); // coordinates system is upside down.
+                    return yScale(data.value);
                 },
-                'width': function () {
-                    return w / dataset.length - padding;
-                },
+                'class': 'bar',
+                'width': xScale.rangeBand(),
                 'height': function (data) {
-                    return yScale(data);
+                    return h - yScale(data.value);
+                },
+                'data-key': function(data){
+                    return data.name;
+                },
+                'data-value': function(data){
+                    return data.value;
+                },
+                'fill': function (data) {
+                    return 'rgb(' + Math.round(100 + (data.value * 1.4)) + ',0,0)'
                 }
             });
 
-    svg.selectAll('text')
-            .data(dataset)
-            .enter()
-            .append('text')
-            .text(function (data) {
-                return data;
-            })
-            .attr(
-            {
-                'text-anchor': 'middle',
-                x: function (data, index) {
-                    return index * ( w / dataset.length ) + ( w / dataset.length + (index === 0 ? -padding : padding)) / 2;  // no padding on first element
-                },
-                y: function (data) {
-                    return h - yScale(data) - lineHeight;
-                },
 
-                'font-family': 'sans-serif',
-                'font-size': 12,
-                'fill': '#000',
-                'class': 'bar-chart-label chart-label-above',
-                'data-bar': function (data, index) {
-                    return 'bar-' + index;
-                }
-            });
 </script>
 
 </html>
