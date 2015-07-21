@@ -45,6 +45,12 @@
 
         };
 
+        function showHeaders(){
+            d3.select('body').append('h1')
+                    .text('Balance by Month');
+        }
+
+
         function showLabels() {
             var labels = d3.select('svg')
                     .selectAll('text')
@@ -107,7 +113,7 @@
             // however d3 assumes all data is string.
 
         }
-
+        showHeaders();
         buildLine();
         showLabels();
         showTotals();

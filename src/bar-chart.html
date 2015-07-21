@@ -6,13 +6,17 @@
 </head>
 <body>
 </body>
-<script type="text/javascript" src="../bower_components/d3/d3.min.js"></script>
+<script type="text/javascript" src="../bower_components/d3/d3.js"></script>
 <script>
-    var w = 500, h = 400, padding = 10, dataset = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89], lineHeight = 10;
+    var w = 600, h = 300, padding = 10, dataset = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89], lineHeight = 10;
 
     var maxElement = dataset.reduce(function (prev, cur) {
         return ( prev < cur ? cur : prev );
     });
+
+    var yScale = d3.scale.linear()
+            .domain([0, maxElement]) // the domain represents our values in our data
+            .range([padding, h - padding - lineHeight]); // values in the svg representation the output range
 
 
     var svg = d3.select('body')
@@ -25,18 +29,21 @@
             .enter()
             .append('rect')
             .style('fill', function (data) {
-                return 'rgb(' + Math.round(100+(data * 1.4)) + ',0,0)'
+                return 'rgb(' + Math.round(100 + (data * 1.4)) + ',0,0)'
             })
-            .attr('x', function (data, index) {
-                return index === 0 ? 0 : padding + index * ( w / dataset.length);
-            })
-            .attr('y', function (data) {
-                return h - ( h / (maxElement + lineHeight + 2 * padding)) * data; // coordinates system is upside down.
-
-            })
-            .attr('width', w / dataset.length - padding)
-            .attr('height', function () {
-                return ( h / (maxElement + lineHeight + 2 * padding) ) * h;
+            .attr({
+                'x': function (data, index) {
+                    return index === 0 ? 0 : padding + index * ( w / dataset.length);
+                },
+                'y': function (data) {
+                    return h - yScale(data); // coordinates system is upside down.
+                },
+                'width': function () {
+                    return w / dataset.length - padding;
+                },
+                'height': function (data) {
+                    return yScale(data);
+                }
             });
 
     svg.selectAll('text')
@@ -53,17 +60,17 @@
                     return index * ( w / dataset.length ) + ( w / dataset.length + (index === 0 ? -padding : padding)) / 2;  // no padding on first element
                 },
                 y: function (data) {
-                    return h - ( h / (maxElement + lineHeight + 2 * padding)) * data - lineHeight;
+                    return h - yScale(data) - lineHeight;
                 },
 
                 'font-family': 'sans-serif',
                 'font-size': 12,
                 'fill': '#000',
                 'class': 'bar-chart-label chart-label-above',
-                'data-bar': function(data,index){
+                'data-bar': function (data, index) {
                     return 'bar-' + index;
                 }
-            })
+            });
 </script>
 
 </html>
